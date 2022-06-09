@@ -27,25 +27,6 @@ body {
     font-size: 1.2rem;
 }
 
-@media (max-width: 900px) {
-    .todo-task {
-        width: 500px;
-    }
-}
-
-@media (max-width: 500px) {
-    .todo-task {
-        width: 350px;
-    }
-    .container {
-        flex-direction: column;
-    }
-    .btn {
-        margin-top: 10px;
-        width: 150px;
-    }
-}
-
 .btn {
     padding: 10px;
     border: none;
@@ -91,7 +72,6 @@ body {
 
 ul {
     list-style: none;
-    word-wrap: break-word;
 }
 
 .card li {
@@ -115,4 +95,35 @@ ul {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .todo-task {
+        width: 500px;
+    }
+
+    .card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .todo-task {
+        width: 350px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .btn {
+        margin-top: 10px;
+        width: 150px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card li {
+        font-size: 1.1rem;
+    }
 }
