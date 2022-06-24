@@ -97,6 +97,68 @@ ul {
     justify-content: center;
 }
 
+.todo-logout {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.home-div {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.home-div h3 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.sign-in > * {
+    margin: 8px;
+}
+
+.sign-in input {
+    padding: 5px;
+    border-radius: 4.5px;
+    border: 2px solid rebeccapurple;
+    width: 15rem;
+}
+
+.sign-in label {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.home-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 10px;
+}
+
+.home-btn button {
+    font-size: 1rem;
+}
+
 @media (max-width: 900px) {
     .todo-task {
         width: 500px;
