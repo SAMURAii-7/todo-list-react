@@ -188,4 +188,8 @@ ul {
     .card li {
         font-size: 1.1rem;
     }
+
+    .sign-in {
+        width: 350px;
+    }
 }
