@@ -136,10 +136,12 @@ ul {
 }
 
 .sign-in input {
-    padding: 5px;
+    padding: 10px;
     border-radius: 4.5px;
     border: 2px solid rebeccapurple;
     width: 15rem;
+    height: 2.2rem;
+    font-size: 1.1rem;
 }
 
 .sign-in label {
